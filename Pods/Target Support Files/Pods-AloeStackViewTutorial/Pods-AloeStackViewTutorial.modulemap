@@ -1,0 +1,6 @@
+framework module Pods_AloeStackViewTutorial {
+  umbrella header "Pods-AloeStackViewTutorial-umbrella.h"
+
+  export *
+  module * { export * }
+}

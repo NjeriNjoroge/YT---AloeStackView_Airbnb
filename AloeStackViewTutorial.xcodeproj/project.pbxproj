@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8798F92722350B3F00AD6926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8798F92622350B3F00AD6926 /* AppDelegate.swift */; };
-		8798F92922350B3F00AD6926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8798F92822350B3F00AD6926 /* ViewController.swift */; };
-		8798F92C22350B3F00AD6926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8798F92A22350B3F00AD6926 /* Main.storyboard */; };
+		8798F92922350B3F00AD6926 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8798F92822350B3F00AD6926 /* DetailsViewController.swift */; };
 		8798F92E22350B4200AD6926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8798F92D22350B4200AD6926 /* Assets.xcassets */; };
 		8798F93122350B4200AD6926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8798F92F22350B4200AD6926 /* LaunchScreen.storyboard */; };
+		D2EF4ECA0988DE2B106AF499 /* Pods_AloeStackViewTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1C2F846141F86EC25B5AEC /* Pods_AloeStackViewTutorial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EE7E482201BD8C1FEF7C96F /* Pods-AloeStackViewTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloeStackViewTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AloeStackViewTutorial/Pods-AloeStackViewTutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		723B3D237AF1C83ABD2557A3 /* Pods-AloeStackViewTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloeStackViewTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-AloeStackViewTutorial/Pods-AloeStackViewTutorial.release.xcconfig"; sourceTree = "<group>"; };
 		8798F92322350B3F00AD6926 /* AloeStackViewTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AloeStackViewTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8798F92622350B3F00AD6926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8798F92822350B3F00AD6926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8798F92B22350B3F00AD6926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8798F92822350B3F00AD6926 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		8798F92D22350B4200AD6926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8798F93022350B4200AD6926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8798F93222350B4200AD6926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1C2F846141F86EC25B5AEC /* Pods_AloeStackViewTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloeStackViewTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +31,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2EF4ECA0988DE2B106AF499 /* Pods_AloeStackViewTutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B1CFB1CAA2C631911D7D870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD1C2F846141F86EC25B5AEC /* Pods_AloeStackViewTutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8798F91A22350B3F00AD6926 = {
 			isa = PBXGroup;
 			children = (
 				8798F92522350B3F00AD6926 /* AloeStackViewTutorial */,
 				8798F92422350B3F00AD6926 /* Products */,
+				EECE969A6931B9DAC9C898F2 /* Pods */,
+				3B1CFB1CAA2C631911D7D870 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +68,21 @@
 			isa = PBXGroup;
 			children = (
 				8798F92622350B3F00AD6926 /* AppDelegate.swift */,
-				8798F92822350B3F00AD6926 /* ViewController.swift */,
-				8798F92A22350B3F00AD6926 /* Main.storyboard */,
+				8798F92822350B3F00AD6926 /* DetailsViewController.swift */,
 				8798F92D22350B4200AD6926 /* Assets.xcassets */,
 				8798F92F22350B4200AD6926 /* LaunchScreen.storyboard */,
 				8798F93222350B4200AD6926 /* Info.plist */,
 			);
 			path = AloeStackViewTutorial;
+			sourceTree = "<group>";
+		};
+		EECE969A6931B9DAC9C898F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EE7E482201BD8C1FEF7C96F /* Pods-AloeStackViewTutorial.debug.xcconfig */,
+				723B3D237AF1C83ABD2557A3 /* Pods-AloeStackViewTutorial.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +92,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8798F93522350B4200AD6926 /* Build configuration list for PBXNativeTarget "AloeStackViewTutorial" */;
 			buildPhases = (
+				8943A91082432371D93445BD /* [CP] Check Pods Manifest.lock */,
 				8798F91F22350B3F00AD6926 /* Sources */,
 				8798F92022350B3F00AD6926 /* Frameworks */,
 				8798F92122350B3F00AD6926 /* Resources */,
+				4FCD087F074D5D5D397E5313 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,18 +147,56 @@
 			files = (
 				8798F93122350B4200AD6926 /* LaunchScreen.storyboard in Resources */,
 				8798F92E22350B4200AD6926 /* Assets.xcassets in Resources */,
-				8798F92C22350B3F00AD6926 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FCD087F074D5D5D397E5313 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AloeStackViewTutorial/Pods-AloeStackViewTutorial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AloeStackView/AloeStackView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AloeStackView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AloeStackViewTutorial/Pods-AloeStackViewTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8943A91082432371D93445BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AloeStackViewTutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8798F91F22350B3F00AD6926 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8798F92922350B3F00AD6926 /* ViewController.swift in Sources */,
+				8798F92922350B3F00AD6926 /* DetailsViewController.swift in Sources */,
 				8798F92722350B3F00AD6926 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +204,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8798F92A22350B3F00AD6926 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8798F92B22350B3F00AD6926 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8798F92F22350B4200AD6926 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +333,7 @@
 		};
 		8798F93622350B4200AD6926 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE7E482201BD8C1FEF7C96F /* Pods-AloeStackViewTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +351,7 @@
 		};
 		8798F93722350B4200AD6926 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723B3D237AF1C83ABD2557A3 /* Pods-AloeStackViewTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

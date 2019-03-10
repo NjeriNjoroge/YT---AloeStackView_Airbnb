@@ -1,0 +1,16 @@
+PODS:
+  - AloeStackView (1.0.1)
+
+DEPENDENCIES:
+  - AloeStackView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AloeStackView
+
+SPEC CHECKSUMS:
+  AloeStackView: d22c006da4510db5e220968234174654b5ed6ea5
+
+PODFILE CHECKSUM: cf2dd8f634076c6890e293cb683af200a407131b
+
+COCOAPODS: 1.5.3
